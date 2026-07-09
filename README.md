@@ -1,6 +1,6 @@
 # CyberDefender Labs
 
-A collection of hands-on labs completed as part of the **CyberDefender** training program. Each lab folder includes the objective, tools used, skills gained, and a write-up of the approach taken.
+A collection of hands-on labs completed as part of the **[CyberDefender](https://cyberdefenders.org/)** training program. Each lab folder includes the objective, tools used, skills gained, and a write-up of the approach taken.
 
 ## About
 
