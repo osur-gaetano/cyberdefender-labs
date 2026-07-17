@@ -2,17 +2,17 @@
 
 ## Objective
 [](https://cyberdefenders.org/blueteam-ctf-challenges/oski/)
-The OSKI lab aims to analyze a sandbox report using Any.Run to identify Stealc malware behavior, extract configuration details, and map observed tactics to MITRE ATT&CK.
+Through the OSKI lab, I aim to analyze a sandbox report from 'Any.Run' to identify Stealc malware behavior, extract configuration details, and map observed tactics to MITRE ATT&CK.
 
 
 ### Scenario
-The accountant at the company received an email titled "Urgent New Order" from a client late in the afternoon. When he attempted to access the attached invoice, he discovered it contained false order information. Subsequently, the SIEM solution generated an alert regarding downloading a potentially malicious file. Upon initial investigation, it was found that the PPT file might be responsible for this download. Could you please conduct a detailed examination of this file?
+The accountant at the company received an email titled "Urgent New Order" from a client late in the afternoon. When he attempted to access the attached invoice, he discovered it contained false order information. Subsequently, the SIEM solution generated an alert about the download of a potentially malicious file. Upon initial investigation, it was found that the PPT file might be responsible for this download. Could you please conduct a detailed examination of this file?
 
 ### Skills Learned
 - Analyze malware behavior.
 - Threat Intelligence.
 - Map adversarial tactics to MITRE ATT&CK.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Development of critical thinking and problem-solving.
 
 ### Tools Used
 - Online Malware Analysis tool (VirusTotal) for analyzing suspicious files, URLs, domains, and IP addresses for malware.
@@ -77,8 +77,8 @@ From the window that pops up, I can also view **RC4** key
 `RC4 Key: 5329514621441247975720749009`
 
 #### Q5. By examining the MITRE ATT&CK techniques displayed in the Any.run sandbox report, identify the main MITRE technique (not sub-techniques) the malware uses to steal the user’s password.
-From the Any.Run Analysis with MITRE ATT&CK. I went to the **Process** tab, on clicking VPN.exe, there are process details, and from the list, I can view a variety of listed information. 
-The detail important for in this case is `T1555.003`
+From the Any.Run Analysis with MITRE ATT&CK. I went to the **Process** tab. When I clicked VPN.exe, I saw process details, and from the list, I could view a variety of information. 
+The detail important in this case is `T1555.003`
 
 <img width="575" height="517" alt="image" src="https://github.com/user-attachments/assets/10a60ec9-f60a-4e51-bf27-1ef7a008194b" />
 
