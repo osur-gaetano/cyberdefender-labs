@@ -11,6 +11,7 @@ CyberDefender is a cybersecurity training platform offering practical, scenario-
 | # | Lab | Category | Skills | Tools |
 |---|-----|----------|--------|-------|
 | 01 | [OSKI Lab](./labs/OSKI) | Threat Intelligence | Malware Analysis, Threat Intelligence | VirusTotal, ANY.Run |
+| 02 | [XXE Infiltration Lab](./labs/XXE_InfiltrationLab) | Network Forensics | Network Traffic Analysis | Wireshark, Brim |
 
 
 
