@@ -30,3 +30,14 @@ The lab is accompanied by a PCAP file (`XXEInfiltration.pcap`) containing the ca
 #### Q1. Knowing which open ports have been discovered by the attacker allows us to understand which services are exposed and potentially targeted. Which ports were found open on the server?
 I start by filtering for completed TCP handshakes to identify which ports the attacker successfully connected to.
 
+<img width="1239" height="650" alt="highest port number" src="https://github.com/user-attachments/assets/7ecef5ba-6f29-413c-b33d-3dff1c3b7901" />
+
+`Port 3306`
+
+#### Q2. By identifying the vulnerable PHP script, security teams can directly address and mitigate the vulnerability. What's the complete URI of the PHP script vulnerable to XXE Injection?
+I started by filtering POST methods in Wireshark `http.request.method="POST"`, since a GET request wouldn't carry an XML payload in its body, and XXE attacks require the attacker to submit XML data to the server.
+
+<img width="703" height="370" alt="Q2" src="https://github.com/user-attachments/assets/1ee863fb-02dc-44da-a46f-4d8935983143" />
+
+`Vulnerable URI: /review/upload.php `
+
